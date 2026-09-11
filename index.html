@@ -125,7 +125,7 @@
                     </h1>
 
                     <p class="text-slate-600 dark:text-slate-300 text-base sm:text-lg leading-relaxed">
-                        Técnico Especialista en Mantenimiento de Instalaciones con sólida experiencia en la <strong class="text-sky-600 dark:text-sky-400">Industria Farmacéutica</strong> y normativas de <strong class="text-emerald-600 dark:text-emerald-400">Correctas Prácticas de Fabricación (GMP)</strong>. Amplios conocimientos en mantenimiento de plantas de agua purificada, osmotizada, salas blancas, climatización, frío industrial, SCADA y automatización avanzada con IA.
+                        Técnico Especialista en Mantenimiento de Instalaciones con sólida experiencia en la <strong class="text-sky-600 dark:text-sky-400">Industria Farmacéutica</strong> y normativas <strong class="text-emerald-600 dark:text-emerald-400">GMP</strong>. Amplios conocimientos en plantas de agua purificada, salas blancas, frío industrial, SCADA, automatización avanzada con IA, ofimática (entorno windows, google) y gran capacidad de adaptabilidad a nuevas tecnologías.
                     </p>
 
                     <div class="flex flex-wrap items-center gap-4 text-sm font-medium pt-2 text-slate-600 dark:text-slate-400">
@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="w-full lg:w-auto flex flex-col sm:flex-row lg:flex-col gap-3">
-                    <button onclick="toggleAccordion('sec-perfil')" class="w-full inline-flex items-center justify-center px-5 py-3 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-medium shadow-lg shadow-sky-600/30 transition transform hover:-translate-y-0.5">
+                    <button onclick="openAndScrollTo('sec-perfil')" class="w-full inline-flex items-center justify-center px-5 py-3 rounded-xl bg-sky-600 hover:bg-sky-700 text-white font-medium shadow-lg shadow-sky-600/30 transition transform hover:-translate-y-0.5">
                         <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         Ver Perfil Detallado
                     </button>
@@ -158,7 +158,7 @@
         </section>
 
         <!-- SECCIÓN PERFIL PROFESIONAL (DESPLEGABLE) -->
-        <section class="bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200/80 dark:border-slate-800 overflow-hidden">
+        <section class="bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200/80 dark:border-slate-800 overflow-hidden scroll-mt-20">
             <button onclick="toggleAccordion('sec-perfil')" class="w-full p-6 text-left flex items-center justify-between bg-slate-50/50 dark:bg-slate-900/50 hover:bg-slate-100/60 dark:hover:bg-slate-800/60 transition group">
                 <div class="flex items-center space-x-4">
                     <div class="p-3 rounded-xl bg-sky-100 dark:bg-sky-950 text-sky-600 dark:text-sky-400 group-hover:scale-105 transition">
@@ -173,23 +173,48 @@
             </button>
             
             <div id="sec-perfil" class="accordion-content border-t border-slate-100 dark:border-slate-800/60 px-6 py-6">
-                <div class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 space-y-4 text-sm sm:text-base leading-relaxed">
+                <div class="prose dark:prose-invert max-w-none text-slate-600 dark:text-slate-300 space-y-5 text-sm sm:text-base leading-relaxed">
                     <p>
-                        Técnico de mantenimiento de instalaciones con amplia experiencia desarrollada en la <strong>industria farmacéutica</strong> y sus correctas prácticas de fabricación (GMP). Mi experiencia laboral se ha estructurado en torno a la reparación, mantenimiento y garantía de continuidad en instalaciones críticas.
+                        Técnico de mantenimiento de instalaciones con sólida experiencia en la <strong>industria farmacéutica</strong> y sus normativas de correctas prácticas de fabricación (GMP). Mi trayectoria laboral está enfocada en garantizar la operatividad, fiabilidad y continuidad en instalaciones y entornos críticos.
                     </p>
+
+                    <!-- BLOQUES DESTACADOS DE EXPERIENCIA Y HERRAMIENTAS -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 not-prose">
+                        <div class="bg-slate-50 dark:bg-slate-800/50 p-4.5 rounded-xl border border-slate-200/70 dark:border-slate-700/60 shadow-sm">
+                            <h3 class="font-display font-bold text-slate-900 dark:text-white text-base mb-2 flex items-center">
+                                <span class="w-2.5 h-2.5 rounded-full bg-sky-500 mr-2.5"></span>
+                                Mantenimiento Técnico e Instalaciones Críticas
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                                Experiencia desarrollada en <strong>Inteman S.A.</strong> realizando reparación y mantenimiento de climatización, frío industrial y cámaras climáticas para laboratorios de referencia (<em>Synthon, Reig Jofré, Neuraxpharm, Aldo Unión, Boehringer-Ingelheim, Sanofi / Aemet, Lab. Viñas, Sandoz, Ferrer, etc.</em>). Posteriormente en <strong>Synthon Hispania S.L.</strong> como Técnico Especialista en planta de agua purificada, osmotizada, descalcificadores, salas blancas y <strong>Responsable del proyecto de mejora y migración del sistema SCADA</strong>.
+                            </p>
+                        </div>
+
+                        <div class="bg-slate-50 dark:bg-slate-800/50 p-4.5 rounded-xl border border-slate-200/70 dark:border-slate-700/60 shadow-sm">
+                            <h3 class="font-display font-bold text-slate-900 dark:text-white text-base mb-2 flex items-center">
+                                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 mr-2.5"></span>
+                                Gestión GMAO, Materiales & Proveedores
+                            </h3>
+                            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed mb-2">
+                                Amplio manejo de herramientas informáticas (ofimática, entorno Windows, Google), documentación técnica y diferentes sistemas de gestión de mantenimiento asistido por ordenador (GMAO):
+                            </p>
+                            <div class="flex flex-wrap gap-1.5 mb-2.5">
+                                <span class="px-2.5 py-0.5 rounded text-xs font-semibold bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">SAP</span>
+                                <span class="px-2.5 py-0.5 rounded text-xs font-semibold bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">Rosmiman</span>
+                                <span class="px-2.5 py-0.5 rounded text-xs font-semibold bg-emerald-100 dark:bg-emerald-950 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800">iRecursos</span>
+                            </div>
+                            <p class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                                Experiencia directa en gestión de materiales y proveedores: desde la identificación de necesidades de intervención y solicitud de repuestos hasta la recepción y trazabilidad documental correspondiente.
+                            </p>
+                        </div>
+                    </div>
+
                     <p>
-                        Trayectoria profesional articulada en dos etapas principales:
+                        Destaco por mi <strong>capacidad de diagnóstico técnico</strong>, adaptabilidad a nuevas tecnologías y constancia profesional. Cuento con una alta capacidad de aprendizaje autónomo ante nuevos procedimientos y herramientas, apoyándome activamente en la investigación de información para resolver necesidades concretas y optimizar los procesos de trabajo.
                     </p>
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li>
-                            <strong>Inteman S.A. (Ingeniería Técnica de Mantenimiento):</strong> Reparación y mantenimiento de sistemas de climatización, frío industrial y cámaras climáticas para una amplia red de laboratorios y plantas farmacéuticas de referencia (<em>Synthon, Reig Jofré, Neuraxpharm, Aldo Unión, Boehringer-Ingelheim, Sanofi (ahora Adamet), Lab. Viñas, Sandoz, Ferrer, Grifols, Menarini, Euromed, etc.</em>).
-                        </li>
-                        <li>
-                            <strong>Synthon Hispania S.L. (Técnico Especialista en Instalaciones):</strong> Mantenimiento integral de planta de agua purificada, osmotizada, descalcificadores, instalaciones de ACS, AFC, ACC, calderas de vapor y agua caliente, salas blancas, sistema SCADA (donde fui Responsable del proyecto de mejora y migración del mismo), así como calibraciones y reparaciones en equipos de laboratorio (autoclaves, agitadores, cabinas de análisis, etc.).
-                        </li>
-                    </ul>
+
                     <p>
-                        Destaco por mi capacidad de diagnóstico técnico, adaptabilidad a nuevas tecnologías y constancia profesional. He complementado mi perfil con un <strong>Máster en Inteligencia Artificial (2025)</strong>, integrando herramientas agénticas y soluciones avanzadas de automatización para la optimización industrial.
+                        Además, he complementado mi trayectoria con un <strong>Máster en Inteligencia Artificial</strong>, integrando conocimientos de automatización, optimización industrial y tecnologías avanzadas para afrontar los retos de la Industria 4.0.
                     </p>
                 </div>
             </div>
@@ -214,19 +239,23 @@
                 <p class="text-sm text-slate-600 dark:text-slate-400 mb-4">
                     Instalaciones asistidas en plantas de producción y laboratorios bajo normativa de calidad GMP:
                 </p>
-                <div class="flex flex-wrap gap-2.5">
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Synthon Hispania</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Boehringer-Ingelheim</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Grifols</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Sanofi (ahora Adamet)</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Reig Jofré</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Sandoz</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Ferrer</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Menarini</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Neuraxpharm</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Aldo Unión</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Laboratorios Viñas</span>
-                    <span class="px-3 py-1.5 rounded-lg text-xs font-semibold bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800">Euromed</span>
+                <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2 text-center text-xs font-semibold">
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Aldo Unión</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Boehringer-Ingelheim</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Euromed</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Ferrer</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Grifols</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Laboratorios Viñas</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Lipotec</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Menarini</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Mesoestetic</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Neuraxpharm</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Ranke (Almirall)</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Reig Jofré</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Sandoz</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Sanofi (ahora Aemet)</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Sincrofarm</span>
+                    <span class="px-2 py-2 rounded-lg bg-sky-50 dark:bg-sky-950 text-sky-700 dark:text-sky-300 border border-sky-200 dark:border-sky-800 shadow-sm transition hover:bg-sky-100 dark:hover:bg-sky-900 flex items-center justify-center">Synthon Hispania</span>
                 </div>
             </div>
         </section>
@@ -245,10 +274,7 @@
             <div class="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-200/80 dark:border-slate-800 overflow-hidden">
                 <button onclick="toggleAccordion('exp-ventos')" class="w-full p-5 text-left flex items-start justify-between bg-slate-50/40 dark:bg-slate-900/40 hover:bg-slate-100/50 dark:hover:bg-slate-800/50 transition group">
                     <div class="space-y-1">
-                        <div class="flex flex-wrap items-center gap-2">
-                            <span class="px-2.5 py-0.5 text-xs font-bold rounded-full bg-sky-600 text-white">ACTUALIDAD</span>
-                            <span class="text-xs font-semibold text-slate-500 dark:text-slate-400">Julio 2026 – Presente</span>
-                        </div>
+                        <span class="text-xs font-semibold text-slate-500 dark:text-slate-400">Julio 2026 – Septiembre 2026</span>
                         <h3 class="font-display text-lg sm:text-xl font-bold text-slate-900 dark:text-white group-hover:text-sky-600 dark:group-hover:text-sky-400 transition">
                             Técnico de Mantenimiento | Ventós
                         </h3>
@@ -358,7 +384,7 @@
         </section>
 
         <!-- SECCIÓN COMPETENCIAS TÉCNICAS Y TRANSVERSALES (DESPLEGABLES) -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             
             <!-- COMPETENCIAS TÉCNICAS -->
             <div class="bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200/80 dark:border-slate-800 overflow-hidden">
@@ -376,66 +402,64 @@
                     <div>
                         <h4 class="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 mb-2">Instalaciones Pharma & Críticas</h4>
                         <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                            <li>• Mantenimiento industrial y prácticas GMP</li>
+                            <li>• Mantenimiento industrial y normativas GMP</li>
                             <li>• Agua purificada, osmotizada y descalcificadores</li>
                             <li>• Salas Blancas y cámaras climáticas</li>
-                            <li>• Calderas de vapor, agua caliente, ACS / AFC / ACC</li>
-                            <li>• Equipos de laboratorio (autoclaves, agitadores, cabinas)</li>
+                            <li>• Climatización, frío industrial y calderas de vapor/agua</li>
+                            <li>• Autoclaves, agitadores y equipos de laboratorio</li>
                             <li>• Bombas de vacío, engranajes y destilación molecular</li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 mb-2">Automatización & SCADA</h4>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 mb-2">Automatización, SCADA & GMAO</h4>
                         <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1">
+                            <li>• Sistemas SCADA (Responsable proyecto de mejora y migración)</li>
+                            <li>• Software GMAO: <strong>SAP, Rosmiman, iRecursos</strong></li>
                             <li>• Autómatas Siemens y control de procesos</li>
-                            <li>• Sistemas SCADA (Mejora y Migración)</li>
-                            <li>• Calibración de precisión</li>
+                            <li>• Calibraciones de precisión y trazabilidad</li>
                         </ul>
                     </div>
                     <div>
-                        <h4 class="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 mb-2">Inteligencia Artificial & Software</h4>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-sky-600 dark:text-sky-400 mb-2">Ofimática, Gestión e Inteligencia Artificial</h4>
                         <ul class="text-xs sm:text-sm text-slate-600 dark:text-slate-300 space-y-1">
-                            <li>• Creación de Apps con IA y sistemas agénticos (Claude Code, Codex, Hermes, Gemini CLI, etc.)</li>
-                            <li>• Automatización con Make, n8n y herramientas agénticas</li>
-                            <li>• ERPs: SAP, Rosmiman, IRecursos</li>
-                            <li>• Ofimática avanzada y edición de vídeo</li>
+                            <li>• Ofimática (entorno Windows y Google)</li>
+                            <li>• Gestión de materiales y proveedores (pedidos, recambios y recepción)</li>
+                            <li>• Aplicación de Inteligencia Artificial y automatización de procesos</li>
                         </ul>
                     </div>
                 </div>
             </div>
 
             <!-- COMPETENCIAS TRANSVERSALES E IDIOMAS -->
-            <div class="bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200/80 dark:border-slate-800 overflow-hidden flex flex-col justify-between">
-                <div>
-                    <button onclick="toggleAccordion('sec-comp-soft')" class="w-full p-6 text-left flex items-center justify-between bg-slate-50/50 dark:bg-slate-900/50 hover:bg-slate-100/60 dark:hover:bg-slate-800/60 transition group">
-                        <div class="flex items-center space-x-3">
-                            <div class="p-2.5 rounded-xl bg-teal-100 dark:bg-teal-950 text-teal-600 dark:text-teal-400">
-                                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
-                            </div>
-                            <h2 class="font-display text-xl font-bold text-slate-900 dark:text-white">Transversales e Idiomas</h2>
+            <div class="bg-white dark:bg-slate-900 rounded-2xl shadow-md border border-slate-200/80 dark:border-slate-800 overflow-hidden">
+                <button onclick="toggleAccordion('sec-comp-soft')" class="w-full p-6 text-left flex items-center justify-between bg-slate-50/50 dark:bg-slate-900/50 hover:bg-slate-100/60 dark:hover:bg-slate-800/60 transition group">
+                    <div class="flex items-center space-x-3">
+                        <div class="p-2.5 rounded-xl bg-teal-100 dark:bg-teal-950 text-teal-600 dark:text-teal-400">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
                         </div>
-                        <svg id="chevron-sec-comp-soft" class="w-5 h-5 text-slate-400 group-hover:text-teal-600 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
+                        <h2 class="font-display text-xl font-bold text-slate-900 dark:text-white">Transversales e Idiomas</h2>
+                    </div>
+                    <svg id="chevron-sec-comp-soft" class="w-5 h-5 text-slate-400 group-hover:text-teal-600 chevron-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                </button>
 
-                    <div id="sec-comp-soft" class="accordion-content border-t border-slate-100 dark:border-slate-800/60 px-6 py-5 space-y-4">
-                        <div>
-                            <h4 class="text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400 mb-2">Habilidades Destacadas</h4>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Diagnóstico y resolución de averías complejas</span>
-                                <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Trabajo en equipo y coordinación con QA</span>
-                                <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Adaptabilidad tecnológica</span>
-                                <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Constancia profesional</span>
-                                <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Proactividad y Creatividad</span>
-                            </div>
+                <div id="sec-comp-soft" class="accordion-content border-t border-slate-100 dark:border-slate-800/60 px-6 py-5 space-y-4">
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400 mb-2">Habilidades Destacadas</h4>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Diagnóstico técnico de averías</span>
+                            <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Aprendizaje autónomo e investigación</span>
+                            <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Coordinación con Calidad (QA) y Producción</span>
+                            <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Adaptabilidad a nuevas tecnologías</span>
+                            <span class="px-3 py-1 bg-slate-100 dark:bg-slate-800 rounded-lg text-xs font-semibold text-slate-700 dark:text-slate-300">Constancia y rigor profesional</span>
                         </div>
+                    </div>
 
-                        <div class="pt-2 border-t border-slate-100 dark:border-slate-800">
-                            <h4 class="text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400 mb-2">Idiomas</h4>
-                            <div class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
-                                <div class="flex justify-between"><span>Español:</span><span class="font-semibold">Nativo</span></div>
-                                <div class="flex justify-between"><span>Catalán:</span><span class="font-semibold">Nativo</span></div>
-                                <div class="flex justify-between"><span>Inglés:</span><span class="font-semibold">Básico (Comprensión de manuales técnicos)</span></div>
-                            </div>
+                    <div class="pt-2 border-t border-slate-100 dark:border-slate-800">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-teal-600 dark:text-teal-400 mb-2">Idiomas</h4>
+                        <div class="space-y-1.5 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+                            <div class="flex justify-between"><span>Español:</span><span class="font-semibold">Nativo</span></div>
+                            <div class="flex justify-between"><span>Catalán:</span><span class="font-semibold">Nativo</span></div>
+                            <div class="flex justify-between"><span>Inglés:</span><span class="font-semibold">Técnico (Comprensión de manuales y documentación)</span></div>
                         </div>
                     </div>
                 </div>
@@ -521,6 +545,24 @@
             } else {
                 content.classList.add('open');
                 if (chevron) chevron.classList.add('rotate');
+            }
+        }
+
+        // Función para asegurar la apertura de un desplegable y desplazarse suavemente hasta su contenido
+        function openAndScrollTo(id) {
+            const content = document.getElementById(id);
+            const chevron = document.getElementById('chevron-' + id);
+            
+            if (content) {
+                if (!content.classList.contains('open')) {
+                    content.classList.add('open');
+                    if (chevron) chevron.classList.add('rotate');
+                }
+                
+                setTimeout(() => {
+                    const container = content.closest('section') || content;
+                    container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }, 80);
             }
         }
 

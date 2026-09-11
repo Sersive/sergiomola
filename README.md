@@ -9,7 +9,7 @@ CV web profesional interactivo adaptado al **Sector de Mantenimiento Farmacéuti
 ## 📌 Características Principales
 
 - **Enfoque Farmacéutico GMP:** Experiencia en plantas de agua purificada, osmotizada, salas blancas, climatización crítica, frío industrial, autoclaves, SCADA y normativas de calidad (QA).
-- **Clientes Farmacéuticos Destacados:** Synthon Hispania, Boehringer-Ingelheim, Grifols, Sanofi (Aemet), Reig Jofré, Sandoz, Ferrer, Menarini, Neuraxpharm, Aldo Unión, Lab. Viñas, Euromed.
+- **Clientes Farmacéuticos Destacados:** Aldo Unión, Boehringer-Ingelheim, Euromed, Ferrer, Grifols, Laboratorios Viñas, Lipotec, Menarini, Mesoestetic, Neuraxpharm, Ranke (Almirall), Reig Jofré, Sandoz, Sanofi (Aemet), Sincrofarm, Synthon Hispania.
 - **Diseño Interactivo Limpio (Desplegables / Acordeón):** El contenido principal permanece ordenado y recogido. Cada sección y tarjeta de experiencia permite desplegar y encoger de forma fluida los detalles técnicos con un clic.
 - **Botonera Global:** Botones de 'Expandir Todo' y 'Contraer Todo' para navegación rápida.
 - **Modo Oscuro Persistente:** Alternador de tema Claro / Oscuro con detección automática y guardado en localStorage.
