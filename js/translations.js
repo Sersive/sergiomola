@@ -235,7 +235,7 @@ const translations = {
         lang_en_val: "Tècnic (Comprensió de manuals i documentació)",
 
         // Education Section
-        sec_formacion_title: "Formació Acadèmica i Certificacions",
+        sec_formacion_title: "Formació Académica i Certificacions",
         sec_formacion_subtitle: "Feu clic per desplegar títols oficials, carnets tècnics i formació contínua",
         edu_academic_title: "Formació Acadèmica",
         edu_degree1: "Màster en Intel·ligència Artificial (2025)",
@@ -385,5 +385,263 @@ const translations = {
         // Footer
         footer_copy: "© 2026 Sergio Morgado Laviña. All rights reserved.",
         footer_tagline: "Interactive Resume optimized for Pharmaceutical Sector, Critical Facilities & Artificial Intelligence."
+    },
+    de: {
+        nav_role: "Pharmatechnik & KI-Instandhaltungsspezialist",
+        btn_expand_all: "Alle ausklappen",
+        btn_collapse_all: "Alle einklappen",
+        hero_tag_gmp: "GMP & Kritische Pharmainstallationen",
+        hero_tag_ai: "Master in KI (2025)",
+        hero_tag_loc: "Sant Feliu de Llobregat (Barcelona, Spanien)",
+        hero_title: "Sergio Morgado Laviña",
+        hero_summary: "Spezialist für technische Gebäude- und Anlageninstandhaltung mit fundierter Erfahrung in der <strong class=\"text-sky-600 dark:text-sky-400\">Pharmazeutischen Industrie</strong> und <strong class=\"text-emerald-600 dark:text-emerald-400\">GMP-Richtlinien</strong>. Umfassende Kenntnisse in Reinstwasseranlagen, Reinräumen, Industrieller Kältetechnik, SCADA-Systemen, KI-gestützter Automatisierung, Bürosoftware (Windows & Google) und hoher Anpassungsfähigkeit an neue Technologien.",
+        hero_btn_detailed: "Detailliertes Profil anzeigen",
+        hero_btn_expand_cv: "Vollständigen Lebenslauf anzeigen",
+
+        // Profile Section
+        sec_perfil_title: "Vollständiges Berufsprofil",
+        sec_perfil_subtitle: "Klicken Sie zum Aus- und Einklappen von Detailinformationen",
+        sec_perfil_intro: "Instandhaltungstechniker für technische Anlagen mit solider Erfahrung in der <strong>pharmazeutischen Industrie</strong> und Good Manufacturing Practice (GMP). Mein beruflicher Schwerpunkt liegt auf der Gewährleistung von Betriebsbereitschaft, Zuverlässigkeit und Kontinuität in kritischen Einrichtungen.",
+        sec_perfil_card1_title: "Technische Instandhaltung & Kritische Anlagen",
+        sec_perfil_card1_text: "Erfahrung bei <strong>Inteman S.A.</strong> in der Instandhaltung von Klima-, Kälte- und Klimakammern für führende Pharmalaboratorien (<em>Synthon, Reig Jofré, Neuraxpharm, Aldo Unión, Boehringer-Ingelheim, Sanofi / Adamet, Lab. Viñas, Sandoz, Ferrer usw.</em>). Anschließend bei <strong>Synthon Hispania S.L.</strong> als Spezialist für Reinstwasser- (PW), Osmose-, Enthärtungsanlagen, Reinräume und <strong>Leiter des Projekts zur Modernisierung und Migration des SCADA-Systems</strong>.",
+        sec_perfil_card2_title: "IPS / GMAO-Systeme, Materialwirtschaft & Lieferanten",
+        sec_perfil_card2_text1: "Umfassende Kenntnisse in EDV-Werkzeugen (Windows & Google Workspace), technischer Dokumentation und computergestützten Instandhaltungsmanagementsystemen (IPS / GMAO):",
+        sec_perfil_card2_text2: "Direkte Erfahrung in der Ersatzteilwirtschaft und Lieferantenabstimmung: von der Ermittlung des Instandhaltungsbedarfs über die Ersatzteilbestellung bis hin zur technischen Abnahme und GMP-Dokumentationsrückverfolgbarkeit.",
+        sec_perfil_p2: "Besondere Stärken sind meine <strong>ausgeprägte technische Diagnosefähigkeit</strong>, berufliche Ausdauer und hohe selbstständige Lernbereitschaft. Nutzung gezielter Recherche zur Behebung komplexer Störungen und zur Prozessoptimierung.",
+        sec_perfil_p3: "Zusätzlich habe ich meine Qualifikation durch einen <strong>Master in Künstlicher Intelligenz (2025)</strong> erweitert, um Automatisierungslösungen und moderne Technologien in die Industrie 4.0 einzubringen.",
+
+        // Clients Section
+        sec_clientes_title: "Gewartete Pharmaunternehmen & Laboratorien",
+        sec_clientes_subtitle: "Klicken Sie, um die Liste der betreuten Pharmastandorte anzuzeigen",
+        sec_clientes_intro: "Betreute Produktionsanlagen und Laboratorien unter GMP-Qualitätsstandards:",
+
+        // Experience Section
+        sec_exp_title: "Berufserfahrung",
+        sec_exp_subtitle: "Klicken Sie auf jede Karte, um Details ein- oder auszublenden",
+
+        exp_ventos_date: "Juli 2026 – September 2026",
+        exp_ventos_role: "Instandhaltungstechniker | Ventós",
+        exp_ventos_loc: "Sant Just Desvern | Chemische Industrie",
+        exp_ventos_b1: "Instandhaltung und Reparatur von industriellen Prozessanlagen.",
+        exp_ventos_b2: "Wartung und Reparatur von <strong>Vakuumpumpen</strong> und <strong>Zahnradpumpen</strong> für Destillationsanlagen.",
+        exp_ventos_b3: "Wartung von <strong>Destillationskolonnen</strong> und <strong>Molekulardestillationssystemen</strong>.",
+
+        exp_inteman2_date: "Nov. 2019 – Juli 2026",
+        exp_inteman2_role: "Instandhaltungstechniker | Inteman S.A.",
+        exp_inteman2_loc: "Barcelona | Technische Instandhaltungstechnik",
+        exp_inteman2_b1: "Wartung und Instandsetzung von <strong>Kälteanlagen, Klimageräten und Klimakammern</strong>.",
+        exp_inteman2_b2: "Erweiterte Fehlersuche und Behebung komplexer Störungen in Industrie- und Laboranlagen.",
+        exp_inteman2_b3: "Anlagenüberwachung sowie präventive und korrektive Instandhaltung bei wichtigen Pharmakunden.",
+
+        exp_synthon_badge: "KRITISCHE GMP-UMGEBUNG",
+        exp_synthon_date: "2006 – Nov. 2019",
+        exp_synthon_role: "Senior Instandhaltungstechniker | Synthon Hispania S.L.",
+        exp_synthon_loc: "Sant Boi de Llobregat | Pharmazeutische Industrie",
+        exp_synthon_b1: "Allgemeine Gebäude- und Anlageninstandhaltung: Elektrotechnik, Klimatechnik, Stickstoffanlagen, <strong>Reinräume</strong>, <strong>Reinstwasser- (PW), Osmose- und Enthärtungsanlagen</strong>, Automatiktüren usw.",
+        exp_synthon_b2: "Betrieb und Wartung von <strong>Warmwasser-, Kaltwasser- und Kühlwassersystemen</strong> sowie Dampf- und Heißwasserkesseln.",
+        exp_synthon_b3: "<strong>SCADA-Systemmanagement:</strong> Verantwortlicher Projektleiter für das Upgrade und die Migration des Werks-SCADA-Systems.",
+        exp_synthon_b4: "Präzisions-<strong>Kalibrierungen</strong> und Reparaturen von <strong>Laborgeräten</strong> (Autoklaven, Schüttler, Abzüge usw.).",
+        exp_synthon_b5: "Störungsmanagement und direkte Abstimmung mit der <strong>Qualitätssicherung (QA)</strong> und der <strong>Produktion</strong>.",
+
+        exp_inteman1_date: "Nov. 1997 – 2006",
+        exp_inteman1_role: "Instandhaltungstechniker | Inteman S.A.",
+        exp_inteman1_loc: "Barcelona | Industrielle Technische Kundendienstberatung",
+        exp_inteman1_b1: "Wartung und Instandsetzung von Kälte- und Klimaanlagen.",
+        exp_inteman1_b2: "Fehlerdiagnose und technischer Außendienst in Industrieanlagen.",
+
+        exp_moviemu_date: "Sept. 1997 – Okt. 1997",
+        exp_moviemu_role: "Elektroinstallateur | Moviemu",
+        exp_moviemu_loc: "Industrieinstallationen",
+        exp_moviemu_b1: "Installation und Verkabelung elektrischer Schaltschränke und Industriesysteme.",
+
+        // Skills Section
+        sec_comp_tec_title: "Technische Kompetenzen",
+        sec_comp_soft_title: "Soft Skills & Sprachen",
+        
+        comp_pharma_cat: "Pharma- & Kritische Anlagen",
+        comp_pharma_li1: "• Industrielle Instandhaltung & GMP-Richtlinien",
+        comp_pharma_li2: "• Reinstwasser- (PW), Osmose- & Wasserenthärtungsanlagen",
+        comp_pharma_li3: "• Reinräume & Klimakammern / Stabilitätskammern",
+        comp_pharma_li4: "• Kältetechnik, Klimatechnik & Dampfkessel",
+        comp_pharma_li5: "• Autoklaven, Schüttler & Laboranalysegeräte",
+        comp_pharma_li6: "• Vakuumpumpen, Zahnradpumpen & Molekulardestillation",
+
+        comp_auto_cat: "Automatisierung, SCADA & IPS",
+        comp_auto_li1: "• SCADA-Systeme (Projektverantwortlicher Modernisierung/Migration)",
+        comp_auto_li2: "• IPS / GMAO-Software: <strong>SAP, Rosmiman, iRecursos</strong>",
+        comp_auto_li3: "• Siemens SPS-Steuerungen & Prozessautomatisierung",
+        comp_auto_li4: "• Präzisionskalibrierung & Dokumentationsrückverfolgbarkeit",
+
+        comp_office_cat: "Bürosoftware, Materialwirtschaft & KI",
+        comp_office_li1: "• Bürosoftware (Windows & Google Workspace)",
+        comp_office_li2: "• Materialwirtschaft & Lieferantenmanagement (Bestellungen & Abnahme)",
+        comp_office_li3: "• Einsatz Künstlicher Intelligenz & Prozessautomatisierung",
+
+        soft_skills_cat: "Besondere Stärken",
+        soft_s1: "Technische Fehlerdiagnose & Störungsbehebung",
+        soft_s2: "Selbstständiges Lernen & Technische Recherche",
+        soft_s3: "Schnittstellenkoordination (QS & Produktion)",
+        soft_s4: "Anpassungsfähigkeit an neue Technologien",
+        soft_s5: "Berufliche Zuverlässigkeit & Präzision",
+
+        lang_cat: "Sprachen",
+        lang_es: "Spanisch:",
+        lang_es_val: "Muttersprache",
+        lang_ca: "Katalanisch:",
+        lang_ca_val: "Muttersprache",
+        lang_en: "Englisch:",
+        lang_en_val: "Technisches Englisch (Lesen von Handbüchern & Dokumentationen)",
+
+        // Education Section
+        sec_formacion_title: "Ausbildung & Technische Zertifikate",
+        sec_formacion_subtitle: "Klicken Sie, um Abschlüsse, Lizenzen und Fortbildungen anzuzeigen",
+        edu_academic_title: "Schul- & Hochschulausbildung",
+        edu_degree1: "Master in Künstlicher Intelligenz (2025)",
+        edu_school1: "Big School - Barcelona",
+        edu_degree2: "Staatlich geprüfter Techniker für Elektrotechnik & Elektronik",
+        edu_school2: "IES Martí Dot (1990 – 1997)",
+        edu_degree3: "Grundschulausbildung (EGB)",
+        edu_school3: "Colegio Mestre Esteve (1980 – 1990)",
+
+        edu_cert_title: "Zertifikate & Lizenzen",
+        cert_1: "Sachkundenachweis für den Umgang mit fluorierten Treibhausgasen (2019)",
+        cert_2: "Kältetechniker- & Klimaanlagenbauerschein (2007)",
+        cert_3: "Siemens SPS-Programmierkurs (2015)",
+        cert_4: "Gabelstaplerschein (2009 & 2024)",
+        cert_5: "Führerschein Klasse B",
+        cert_6: "Arbeitsschutz & Unfallverhütung (PRL)",
+
+        // Footer
+        footer_copy: "© 2026 Sergio Morgado Laviña. Alle Rechte vorbehalten.",
+        footer_tagline: "Interaktiver Lebenslauf optimiert für den Pharmasektor, Kritische Anlagen & Künstliche Intelligenz."
+    },
+    fr: {
+        nav_role: "Spécialiste Maintenance Pharmacie & IA",
+        btn_expand_all: "Tout Développer",
+        btn_collapse_all: "Tout Réduire",
+        hero_tag_gmp: "GMP & Environnements Critiques Pharma",
+        hero_tag_ai: "Master en IA (2025)",
+        hero_tag_loc: "Sant Feliu de Llobregat (Barcelone, Espagne)",
+        hero_title: "Sergio Morgado Laviña",
+        hero_summary: "Technicien Spécialiste en Maintenance des Installations avec une solide expérience dans l'<strong class=\"text-sky-600 dark:text-sky-400\">Industrie Pharmaceutique</strong> et les normes <strong class=\"text-emerald-600 dark:text-emerald-400\">GMP</strong>. Solides connaissances en centrales d'eau purifiée, salles blanches, froid industriel, SCADA, automatisation avancée par IA, bureautique (environnement Windows & Google) et forte capacité d'adaptation aux nouvelles technologies.",
+        hero_btn_detailed: "Voir Profil Détaillé",
+        hero_btn_expand_cv: "Déployer le CV Complet",
+
+        // Profile Section
+        sec_perfil_title: "Profil Professionnel Complet",
+        sec_perfil_subtitle: "Cliquer pour afficher / masquer les informations détaillées",
+        sec_perfil_intro: "Technicien de maintenance des installations avec une solide expérience dans l'<strong>industrie pharmaceutique</strong> et les Bonnes Pratiques de Fabrication (BPF / GMP). Mon parcours est axé sur la garantie de l'opérabilité, de la fiabilité et de la continuité dans les installations et environnements critiques.",
+        sec_perfil_card1_title: "Maintenance Technique & Installations Critiques",
+        sec_perfil_card1_text: "Expérience développée chez <strong>Inteman S.A.</strong> en réparation et maintenance de génie climatique, froid industriel et chambres climatiques pour des laboratoires majeurs (<em>Synthon, Reig Jofré, Neuraxpharm, Aldo Unión, Boehringer-Ingelheim, Sanofi / Adamet, Lab. Viñas, Sandoz, Ferrer, etc.</em>). Puis chez <strong>Synthon Hispania S.L.</strong> en tant que Technicien Spécialiste en centrales d'eau purifiée (PW), osmosée, adoucisseurs, salles blanches et <strong>Chef de Projet de Modernisation et Migration du Système SCADA</strong>.",
+        sec_perfil_card2_title: "Gestion GMAO, Matériaux & Fournisseurs",
+        sec_perfil_card2_text1: "Maîtrise approfondie des outils informatiques (bureautique, environnement Windows, Google Workspace), documentation technique et différents logiciels de Gestion de la Maintenance Assistée par Ordinateur (GMAO):",
+        sec_perfil_card2_text2: "Expérience directe en gestion des pièces de rechange et fournisseurs: de l'identification des besoins d'intervention et commande de pièces jusqu'à la réception technique et la traçabilité documentaire GMP.",
+        sec_perfil_p2: "Je me distingue par mes <strong>capacités de diagnostic technique</strong>, ma rigueur et ma grande capacité d'apprentissage autonome face aux nouveaux outils. Utilisation de la recherche d'information pour résoudre des pannes complexes et optimiser les processus industriels.",
+        sec_perfil_p3: "De plus, j'ai complété mon parcours par un <strong>Master en Intelligence Artificielle (2025)</strong>, intégrant l'automatisation avancée et les technologies émergentes pour l'Industrie 4.0.",
+
+        // Clients Section
+        sec_clientes_title: "Laboratoires & Environnements Pharmaceutiques Desservis",
+        sec_clientes_subtitle: "Cliquer pour afficher la liste des usines pharmaceutiques entretenues",
+        sec_clientes_intro: "Installations entretenues dans des usines de production et laboratoires sous normes de qualité GMP:",
+
+        // Experience Section
+        sec_exp_title: "Expérience Professionnelle",
+        sec_exp_subtitle: "Cliquer sur chaque carte pour afficher ou masquer les détails",
+
+        exp_ventos_date: "Juillet 2026 – Septembre 2026",
+        exp_ventos_role: "Technicien de Maintenance | Ventós",
+        exp_ventos_loc: "Sant Just Desvern | Industrie Chimique",
+        exp_ventos_b1: "Maintenance et réparation d'installations industrielles.",
+        exp_ventos_b2: "Maintenance et réparation de <strong>pompes à vide</strong> et <strong>pompes à engrenages</strong> de distillation.",
+        exp_ventos_b3: "Maintenance et révision d'équipements de <strong>distillation</strong> et de <strong>distillation moléculaire</strong>.",
+
+        exp_inteman2_date: "Nov. 2019 – Juillet 2026",
+        exp_inteman2_role: "Technicien de Maintenance | Inteman S.A.",
+        exp_inteman2_loc: "Barcelone | Ingénierie de Maintenance Technique",
+        exp_inteman2_b1: "Maintenance et réparation de <strong>systèmes frigorifiques, génie climatique et chambres climatiques</strong>.",
+        exp_inteman2_b2: "Diagnostic avancé et résolution de pannes complexes dans des environnements industriels et de laboratoire.",
+        exp_inteman2_b3: "Supervision d'installations et assistance technique préventive et corrective chez des clients pharma clés.",
+
+        exp_synthon_badge: "ENVIRONNEMENT CRITIQUE GMP",
+        exp_synthon_date: "2006 – Nov. 2019",
+        exp_synthon_role: "Technicien Spécialiste de Maintenance Senior | Synthon Hispania S.L.",
+        exp_synthon_loc: "Sant Boi de Llobregat | Industrie Pharmaceutique",
+        exp_synthon_b1: "Maintenance générale des installations: électricité, CVC, azote, <strong>salles blanches</strong>, <strong>station d'eau purifiée, osmosée et adoucisseurs</strong>, portes automatiques, etc.",
+        exp_synthon_b2: "Exploitation et maintenance des circuits d'<strong>ECS, Eau Froide et Eau Glacée</strong>, ainsi que des chaudières à vapeur et eau chaude.",
+        exp_synthon_b3: "<strong>Gestion des Systèmes SCADA:</strong> Chef de Projet responsable de la modernisation et de la migration du SCADA d'usine.",
+        exp_synthon_b4: "<strong>Étalonnage</strong> d'instruments de précision et réparation d'<strong>équipements de laboratoire</strong> (autoclaves, agitateurs, hottes, etc.).",
+        exp_synthon_b5: "Gestion des incidents et coordination directe avec l'<strong>Assurance Qualité (QA)</strong> et la <strong>Production</strong>.",
+
+        exp_inteman1_date: "Nov. 1997 – 2006",
+        exp_inteman1_role: "Technicien de Maintenance | Inteman S.A.",
+        exp_inteman1_loc: "Barcelone | Assistance Technique Industrielle",
+        exp_inteman1_b1: "Maintenance et réparation de systèmes frigorifiques et de climatisation.",
+        exp_inteman1_b2: "Diagnostic de pannes et assistance technique sur sites industriels.",
+
+        exp_moviemu_date: "Sept. 1997 – Oct. 1997",
+        exp_moviemu_role: "Électricien / Installateur Électrique | Moviemu",
+        exp_moviemu_loc: "Installations Industrielles",
+        exp_moviemu_b1: "Installation et câblage de coffrets électriques et équipements industriels.",
+
+        // Skills Section
+        sec_comp_tec_title: "Compétences Techniques",
+        sec_comp_soft_title: "Compétences Transversales & Langues",
+        
+        comp_pharma_cat: "Installations Pharma & Critiques",
+        comp_pharma_li1: "• Maintenance industrielle & réglementations BPF / GMP",
+        comp_pharma_li2: "• Eau purifiée (PW), eau osmosée & adoucisseurs",
+        comp_pharma_li3: "• Salles Blanques & enceintes climatiques",
+        comp_pharma_li4: "• Génie climatique, froid industriel & chaudières vapeur",
+        comp_pharma_li5: "• Autoclaves, agitateurs & équipements d'analyse",
+        comp_pharma_li6: "• Pompes à vide, engrenages & distillation moléculaire",
+
+        comp_auto_cat: "Automatisation, SCADA & GMAO",
+        comp_auto_li1: "• Systèmes SCADA (Responsable projet de modernisation & migration)",
+        comp_auto_li2: "• Logiciels GMAO: <strong>SAP, Rosmiman, iRecursos</strong>",
+        comp_auto_li3: "• Automates Siemens & contrôle de procédés",
+        comp_auto_li4: "• Étalonnage de précision & traçabilité documentaire",
+
+        comp_office_cat: "Bureautique, Gestion & Intelligence Artificielle",
+        comp_office_li1: "• Bureautique (environnement Windows & Google Workspace)",
+        comp_office_li2: "• Gestion du matériel & fournisseurs (commandes, pièces & réception)",
+        comp_office_li3: "• Application de l'Intelligence Artificielle & automatisation des processus",
+
+        soft_skills_cat: "Atouts Principaux",
+        soft_s1: "Diagnostic technique & recherche de pannes",
+        soft_s2: "Apprentissage autonome & recherche d'information",
+        soft_s3: "Coordination interservices (Assurance Qualité & Production)",
+        soft_s4: "Adaptabilité aux nouvelles technologies",
+        soft_s5: "Rigueur professionnelle & persévérance",
+
+        lang_cat: "Langues",
+        lang_es: "Espagnol:",
+        lang_es_val: "Langue maternelle",
+        lang_ca: "Catalan:",
+        lang_ca_val: "Langue maternelle",
+        lang_en: "Anglais:",
+        lang_en_val: "Technique (Lecture de manuels & documentation)",
+
+        // Education Section
+        sec_formacion_title: "Formation Académique & Certifications",
+        sec_formacion_subtitle: "Cliquer pour afficher les diplômes officiels, habilitations et formations",
+        edu_academic_title: "Formation Académique",
+        edu_degree1: "Master en Intelligence Artificielle (2025)",
+        edu_school1: "Big School - Barcelone",
+        edu_degree2: "Technicien Supérieur / Spécialiste en Maintenance Électrique et Électronique",
+        edu_school2: "IES Martí Dot (1990 – 1997)",
+        edu_degree3: "Enseignement Primaire (EGB)",
+        edu_school3: "Colegio Mestre Esteve (1980 – 1990)",
+
+        edu_cert_title: "Certifications & Habilitations Techniques",
+        cert_1: "Attestation de capacité d'aptitude au maniement des fluides frigorigènes (2019)",
+        cert_2: "Attestation / Permis d'installateur et de maintenance en climatisation (2007)",
+        cert_3: "Formation Automates Programmables Siemens (2015)",
+        cert_4: "CACES / Permis Cariste Chariots Élévateurs (2009 & 2024)",
+        cert_5: "Permis de conduire B",
+        cert_6: "Habilitation Prévention des Risques Professionnels (PRL)",
+
+        // Footer
+        footer_copy: "© 2026 Sergio Morgado Laviña. Tous droits réservés.",
+        footer_tagline: "CV Interactif optimisé pour le Secteur Pharmaceutique, Environnements Critiques & Intelligence Artificielle."
     }
 };
